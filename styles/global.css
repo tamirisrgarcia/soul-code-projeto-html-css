@@ -1,10 +1,11 @@
 /* ! GLOBAL =====================================================*/
 :root {
-    --backgroundBody: #8EACBF;
-    --backgroundMain: #F2F2F2;
-    --lightBlue: #5D7CA6;
+    --backgroundBody: #64868e;
+    --backgroundMain:  #f3fbf1;
+    --lightCard: #d1e4d1;
     --darkBlue: #102540;
     --dark: #0D0D0D;
+    --backgroundFooter: #98b4a6;
 }
 /*! RESET */
 * {
@@ -23,12 +24,18 @@ body {
 .container-total {
     width: 900px;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+    
+
 /*  == HEADER ========================================================= */
 
 header p {
-    background: #10254081;
+    background: #f3fbf1d7;
     font-size: 22px;
-    /* color: var(--lightBlue); */
+    
 }
 header p > span {
     font-family: 'Lobster', cursive;
@@ -62,6 +69,7 @@ nav ul li a {
     text-decoration: none;
 }
 .menu-button {
+    border-radius: 5px;
     font-weight: bold;
     padding: 10px 0;
     width: 120px;
@@ -70,7 +78,7 @@ nav ul li a {
 .menu-button:hover {
     cursor: pointer;
     background: darkcyan;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 /* == BANNER == */
@@ -81,7 +89,7 @@ nav ul li a {
     bottom: 0;
 }
 .message {
-    color: #fff;
+    color: var(--backgroundBody);
     position: absolute;
     top: 50px;
     left: 20px;
@@ -96,7 +104,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    background: royalblue;
+    background: var(--backgroundFooter);
     color: #fff;
     padding: 10px;
     font-size: 13px;
@@ -190,12 +198,26 @@ footer ul > li {
     }
     nav>ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         gap: 2px;
     }
-
+    div.equipe {
+        text-align: center;
+        width: 100%;
+    }
+    ul.github-team > li {
+        margin: 2px 0;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    a.mapa-link{
+        width: 10px;
+    }
+    
     section.depoimentos, div.card-depoimento{
         width: 100%;
         display: flex;
@@ -228,13 +250,20 @@ footer ul > li {
         padding: 0;
     }
     div.mapa{
-        /* width: 100%; */
+        width: 100%;
         padding: 5px 0;
+    }
+    ul.mapa-lista {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 
     footer h4 {
         width: 100%;
-        border: 1px solid #fff;
     }
     
 }

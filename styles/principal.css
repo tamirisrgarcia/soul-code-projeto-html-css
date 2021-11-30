@@ -1,7 +1,7 @@
 /* GLOBAL */
 main {
     text-align: center;
-    background: #fff;
+    background: var(--backgroundMain);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ main {
     width: 100%;
 }
 .card-destaque {
-    background: var(--backgroundBody);
+    background: var(--lightCard);
     display: flex;
     flex-direction: column;
     padding: 10px;

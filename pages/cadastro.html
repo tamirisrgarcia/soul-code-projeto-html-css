@@ -35,35 +35,43 @@
 
             <!--todo main -->
         <main>
-            <h1>Cadastro ONG</h1>
+            <h1>Cadastro PLIT</h1>
             <form class="formulario" method="post" action="#">
                 <p>
-                    Preencha o formulário para se inscrever-se na "ONG"
+                    Preencha o formulário para se inscrever-se na PLIT
                 </p>
                 <h2>Dados Pessoais</h2>
-                <div class="campo">
-                    <label for="nome">Nome / Nome Empresa</label>
-                    <input type="text" id="nome" name="nome">
-                </div>
-                <div class="campo">
-                    <label for="logradouro">Endereço</label>
-                    <input type="text" id="logradouro" name="logradouro">
-                </div>
-                <div class="campo">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" name="=telefone">
-                </div>
-                <div class="campo">
-                    <label for="email">Informe seu email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="campo">
-                    <label for="reg-id">Informe seu RG ou CNPJ</label>
-                    <input type="text" id="reg-id" name="reg-id">
+                <div class="form-container-row">
+                    <div class="sect-one">
+                        <div class="campo">
+                            <label for="nome">Nome / Empresa</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+                        <div class="campo">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" id="telefone" name="=telefone">
+                        </div>
+                    </div>
+                    <div class="sect-two">
+                        <div class="campo">
+                            <label for="email">Informe seu email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="campo">
+                            <label for="reg-id">Informe seu CPF ou CNPJ</label>
+                            <input type="text" id="reg-id" name="reg-id">
+                        </div>
+                    </div>
+                    <div class="sect-three">
+                        <div class="campo">
+                            <label for="logradouro">Endereço</label>
+                            <input type="text" id="logradouro" name="logradouro">
+                        </div>
+                    </div>
                 </div>
                 <h2>Informações Adicionais:</h2>
                 <div class="campo-area">
-                    <label for="mensagem">Descreva por que você gostaria de fazer parte da "ONG"</label> <br>
+                    <label for="mensagem">Descreva por que você gostaria de fazer parte da PLIT</label> <br>
                     <textarea name="mensagem" id="mensagem"></textarea>
                     <input type="submit" name="Enviar" id="enviar">
                 </div>
