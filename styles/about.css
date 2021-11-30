@@ -1,4 +1,5 @@
 .main {
+    width: 900px;
     background-image: linear-gradient(to bottom right, #222831, #393e46, #00adb5, #00fff5);
     
 }
@@ -93,7 +94,31 @@ img {
     align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+
+
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    a.mapa-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer a > img {
+        width: 20px;
+    }
+
     p {
         margin: 0;
     }

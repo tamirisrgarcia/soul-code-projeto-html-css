@@ -19,6 +19,8 @@
 Outras fontes de imagens:
 <p>Fontes:</p>
 <ul>
+    <li><a href='https://unsplash.com/'>Unsplash</a></li>
+    <li><a href='https://www.rawpixel.com/'>Rawpixel</a></li>
     <li><a href='https://www.pexels.com/pt-br/'>Pexel</a></li>
     <li><a href='https://pixabay.com/'>Pixabay</a>
 <ul>

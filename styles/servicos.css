@@ -1,13 +1,13 @@
 main {
     color: var(--dark);
     background: var(--backgroundMain);
+    border: 1px solid var(--backgroundMain);
 }
 
 .message h1 {
     text-align: center;
     font-size: 80px;
     padding-top: 40px;
-    color: crimson;
 }
 
 .container_1 {
@@ -65,7 +65,6 @@ strong {
 .container_3 h2 {
     margin-top: 100px;
     margin-bottom: 20px;
-    color: mediumblue;
     font-size: 35px;
 }
 
@@ -114,7 +113,6 @@ strong {
 .container_4 h2 {
     margin-top: 50px;
     margin-bottom: 20px;
-    color: rgb(172, 10, 10);
     font-size: 35px;
 }
 

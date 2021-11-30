@@ -105,7 +105,8 @@ footer {
     justify-content: space-evenly;
     align-items: flex-start;
     background: var(--backgroundFooter);
-    color: #fff;
+    color: #000;
+    font-weight: bold;
     padding: 10px;
     font-size: 13px;
 }
@@ -154,7 +155,6 @@ footer ul > li {
     margin: 0 10px;
 }
 
-
 .contato-container {
     display: flex;
     flex-direction: column;
@@ -162,8 +162,6 @@ footer ul > li {
     align-items: center;
     gap: 10px;
 }
-
-
 
 .hr {
     margin: 30px 0;

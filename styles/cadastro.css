@@ -1,3 +1,6 @@
+main {
+    border: 1px solid var(--backgroundMain);
+}
 main, form> h2 {
     background: var(--backgroundMain);
     text-align: center;
