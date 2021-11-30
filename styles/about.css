@@ -1,0 +1,106 @@
+.main {
+    background-image: linear-gradient(to bottom right, #222831, #393e46, #00adb5, #00fff5);
+    
+}
+
+.banner {
+    background-image: url(../img/image-from-rawpixel-id-1606-jpeg.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    border-bottom: 1px solid rgb(204, 11, 11);
+    box-shadow: 1px 0px 1px rgb(204, 11, 11);
+    background-position: 0% 18%;
+}
+
+.message h2 {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 40px;
+    color: crimson;
+}
+
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: #393e46;
+    font-size: 20px;
+    word-spacing: 10px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    background-color: whitesmoke;
+}
+
+.container_2 {
+    display: flex;
+    margin: 30px 30px;
+    padding: 40px 20pxs;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    word-spacing: 10px;    
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+.container_3 {
+    padding: 40px 20px;
+    color: white;
+    font-size: 20px;
+    word-spacing: 10px;       
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+.container_3 h2 {
+    text-align: center;
+}
+
+
+.container_1 p, .container_2 p {
+    margin: 50px 300px;
+}
+
+.time {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+}
+
+ .img_1 , .img_2 {
+    margin: 0 20px;
+    display: flex;
+}
+
+.pedro , .tamiris {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icaro, .leonardo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+@media screen and (max-width: 800px) {
+    p {
+        margin: 0;
+    }
+    
+}
